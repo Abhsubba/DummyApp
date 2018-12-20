@@ -32,6 +32,15 @@
     <version>3.141.59</version>
 </dependency>
   
+
+<dependency>
+  <groupId>org.jenkins-ci.plugins.workflow</groupId>
+  <artifactId>workflow-aggregator</artifactId>
+  <version>2.5</version> 
+  <scope>test</scope>
+</dependency>
+
+  
   <dependency>
    
       <groupId>org.apache.maven.plugins</groupId>
@@ -46,8 +55,6 @@
     <artifactId>junit</artifactId>
     <version>4.12</version>
     <scope>test</scope>
-
-
 </dependency>
   </dependencies>
 </project>
