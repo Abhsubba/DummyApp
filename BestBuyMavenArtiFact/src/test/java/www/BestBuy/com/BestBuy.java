@@ -13,7 +13,7 @@ public class BestBuy {
 
         public static void main(String[] args) {
 
- /*               System.setProperty("webdriver.gecko.driver","/home/abhirup/.jenkins/workspace/BestBuyAuto/BestBuy/BestBuyMavenArtiFact");
+ /*               System.setProperty("webdriver.gecko.driver","C:\Users\Abhirup Subba\Downloads\geckodriver-v0.23.0-win64\geckodriver.exe");
                 WebDriver driver = new FirefoxDriver();
 
                  // launch Fire fox and direct it to the Base URL
@@ -27,7 +27,7 @@ public class BestBuy {
         }
         static void Test() {
         	
-            System.setProperty("webdriver.gecko.driver","/home/abhirup/.jenkins/workspace/BestBuyAuto/BestBuy/BestBuyMavenArtiFact/geckodriver");
+            System.setProperty("webdriver.gecko.driver","C:\\Users\\Abhirup Subba\\Downloads\\geckodriver-v0.23.0-win64\\geckodriver.exe");
             WebDriver driver = new FirefoxDriver();
 
              // launch Fire fox and direct it to the Base URL
